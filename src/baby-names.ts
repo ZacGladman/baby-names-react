@@ -1,4 +1,10 @@
-[
+interface babyNamesProps {
+  id: number,
+  name: string,
+  sex: string
+}
+
+export const babyNames: babyNamesProps[] = [
     {
       "id": 0,
       "name": "Zahra",
