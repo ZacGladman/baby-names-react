@@ -1,22 +1,13 @@
+import { letterIsEarlierInAlphabet } from "./letterIsEarlierInAlphabet";
+
 export function nameIsEarlierInAlphabet(name1: string, name2: string): boolean {
-    const alphabet = 'abcdefghijklmnopqrstuvwxyz';
-
-
-    return false
+    for(let i=0; i<name1.length; i++){
+        const letterIsEarlier = letterIsEarlierInAlphabet(name1[i], name2[i])
+        if(letterIsEarlier===true){
+            return true
+        } else if(letterIsEarlier===false){
+            return false
+        }
+    }
+    return true
 }
-
-function letterIsEarlierInAlphabet(letter1: string, letter2: string): boolean {  
-    const alphabet = 'abcdefghijklmnopqrstuvwxyz';
-    return alphabet.indexOf(letter1) < alphabet.indexOf(letter2) ? true:false
-}
-
-/* PROGRAMME isEarlierInAlphabet:
-        FOR EACH letter in word1:
-            IF letter appears before the same positioned letter in word2 does in the alphabet:
-                RETURN true;
-            ELSE IF letter appears after:
-                RETURN false;
-            ELSE: // they're the same letter
-
-
-*/
