@@ -37,3 +37,10 @@
     padding-left: 10%;
 
 }
+
+.center {
+    margin: auto;
+    width: 10%;
+    height: 28px;
+
+}
