@@ -4,7 +4,7 @@ interface babyNamesMAPprops {
     name: babyNamesProps
 }
 
-export function oneBabyElement(props: babyNamesMAPprops): JSX.Element {
+export function OneBabyElement(props: babyNamesMAPprops): JSX.Element {
     const name = props.name
     return (
         <>

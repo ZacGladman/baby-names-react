@@ -1,3 +1,9 @@
-import { babyNames } from "../baby-names";
-import { babyNamesProps } from "../baby-names";
-import { sortAlphabetically } from "../utils/sortAlphabetically";
+import { AllBabyEntries } from "./AllBabyElements"
+
+export function MainContent(): JSX.Element {
+    return (
+        <main>
+            <AllBabyEntries />
+        </main>
+    )
+}

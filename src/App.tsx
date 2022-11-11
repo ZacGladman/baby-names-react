@@ -1,12 +1,10 @@
 import { greet } from "./utils/greet";
+import {MainContent} from "./components/MainContent"
 
 function App(): JSX.Element {
   return (
     <>
-      <div>
-        <div>Hello</div>
-        <div>World</div>
-      </div>
+      <MainContent />
     </>
   );
 }
