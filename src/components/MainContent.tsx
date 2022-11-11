@@ -1,9 +1,9 @@
-import { AllBabyEntries } from "./AllBabyElements"
+import { AllBabyEntries } from "./AllBabyElements";
 
 export function MainContent(): JSX.Element {
-    return (
-        <main>
-            <AllBabyEntries />
-        </main>
-    )
+  return (
+    <main>
+      <AllBabyEntries />
+    </main>
+  );
 }
