@@ -1,6 +1,6 @@
 import { babyNamesProps } from "../baby-names";
 
-export interface babyNamesMAPprops {
+interface babyNamesMAPprops {
   name: babyNamesProps;
 }
 
@@ -9,9 +9,9 @@ export function OneBabyElement(props: babyNamesMAPprops): JSX.Element {
   return (
     <>
       {name.sex === "m" ? (
-        <p className="male">{name.name}</p>
+        <button className="male"><b>{name.name}</b></button>
       ) : (
-        <p className="female">{name.name}</p>
+        <button className="female"><b>{name.name}</b></button>
       )}
     </>
   );
