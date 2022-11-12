@@ -70,7 +70,6 @@ width: 130px;
 
 .center:focus{
     width:10%;
-    color: white;
     text-align: center;
 }
 
