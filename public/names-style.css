@@ -7,7 +7,7 @@
     padding: 12px 28px;
     border-radius: 18px;
     margin: 4px 4px 4px 4px;
-    transition-duration: 0.4s;
+    transition-duration: 0.2s;
 }
 
 .male:hover {
@@ -24,7 +24,7 @@
     padding: 12px 28px;
     border-radius: 18px;
     margin: 4px 4px 4px 4px;
-    transition-duration: 0.4s;
+    transition-duration: 0.2s;
 }
 
 .female:hover {
@@ -39,8 +39,40 @@
 }
 
 .center {
-    margin: auto;
-    width: 10%;
-    height: 28px;
+    display: block;
+    margin: 0 auto;
+    width: 5%;
+    text-align: left;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+    transition: width 0.2s ease-in-out;
+    
+}
 
+/* .center{
+width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+} */
+
+.center:focus{
+    width:10%
+}
+
+hr {
+    width: 70%;
+    color: cornflowerblue;
 }
