@@ -1,0 +1,78 @@
+.male {
+    display: inline-block;
+    background-color: rgb(132, 226, 255);
+    border:none;
+    font-size: 16px;
+    color: rgb(21, 75, 100);
+    padding: 12px 28px;
+    border-radius: 18px;
+    margin: 4px 4px 4px 4px;
+    transition-duration: 0.2s;
+}
+
+.male:hover {
+    background-color: white;
+    color:rgb(0, 116, 224)
+}
+
+.female {
+    display: inline-block;
+    background-color: rgb(255, 194, 204);
+    border: none;
+    font-size: 16px;
+    color: rgb(163, 78, 92);
+    padding: 12px 28px;
+    border-radius: 18px;
+    margin: 4px 4px 4px 4px;
+    transition-duration: 0.2s;
+}
+
+.female:hover {
+    background-color: white;
+    color: rgb(255, 132, 153);
+}
+
+.babyNamesList {
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+    width: 5%;
+    text-align: left;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+    transition: width 0.2s ease-in-out;
+    
+}
+
+/* .center{
+width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+} */
+
+.center:focus{
+    width:10%
+}
+
+hr {
+    width: 70%;
+    color: cornflowerblue;
+}
