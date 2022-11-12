@@ -17,10 +17,10 @@
 
 .female {
     display: inline-block;
-    background-color: rgb(255, 194, 204);
+    background-color: rgb(255, 156, 210);
     border: none;
     font-size: 16px;
-    color: rgb(163, 78, 92);
+    color: rgb(136, 6, 86);
     padding: 12px 28px;
     border-radius: 18px;
     margin: 4px 4px 4px 4px;
@@ -69,10 +69,59 @@ width: 130px;
 } */
 
 .center:focus{
-    width:10%
+    width:10%;
+    text-align: center;
 }
 
 hr {
     width: 70%;
     color: cornflowerblue;
+}
+
+.maleButton {
+    display: inline-block;
+    background-color: rgb(132, 226, 255);
+    border:none;
+    font-size: 50px;
+    color: rgb(21, 75, 100);
+    padding: 0px 10px;
+    border-radius: 18px;
+    margin: 4px 4px 4px 4px;
+    transition-duration: 0.2s;
+    margin-left: 46.75%;
+}
+
+.maleButton:hover {
+    background-color: white;
+    color:rgb(21, 75, 100)
+}
+
+.femaleButton {
+    display: inline-block;
+    background-color: rgb(255, 156, 210);
+    border:none;
+    font-size: 50px;
+    color: rgb(136, 6, 86);
+    padding: 0px 10px;
+    border-radius: 18px;
+    margin: 4px 4px 4px 4px;
+    transition-duration: 0.2s;
+}
+
+.femaleButton:hover {
+    background-color: white;
+    color: rgb(136, 6, 86)
+}
+
+.resetButton {
+    display: inline-block;
+    background: linear-gradient(90deg, rgb(132, 226, 255) 47.5%, rgb(255, 156, 210) 55%);
+    border:none;
+    font-size: 18px;
+    color: rgb(63, 47, 57);
+    padding: 4px 10px;
+    border-radius: 18px;
+    margin: 4px 4px 4px 4px;
+    transition-duration: 0.2s;
+    margin-left: 48.5%;
 }
