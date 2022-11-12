@@ -3,7 +3,6 @@ import { sortAlphabetically } from "../utils/sortAlphabetically";
 import { OneBabyElement } from "./OneBabyElement";
 import { useState } from "react";
 import { nameFilter } from "../utils/name-matcher";
-import { GenderButton } from "./GenderButton";
 import { genderFilter } from "../utils/genderFilter";
 
 export function AllBabyEntries(): JSX.Element {
